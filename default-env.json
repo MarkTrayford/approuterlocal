@@ -1,0 +1,14 @@
+{
+    "destinations" : [
+          {
+              "name": "env_destination_saphome",
+              "url": "http://sap.com/"
+          },
+          {
+            "name": "google",
+            "url": "http://google.com/"
+        } ],
+    "<XS_APP_LOG_LEVEL>"  : [ "true" ],
+    "<REQUEST_TRACE>" : [ "true" ]
+    
+}

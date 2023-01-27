@@ -1,0 +1,15 @@
+{
+    "authenticationMethod": "none",
+    "routes": [
+      {
+        "source": "^/saproute/(.*)$",
+        "target": "$1",
+        "destination": "env_destination_saphome"
+      },
+      {
+        "source": "^/google/(.*)$",
+        "target": "$1",
+        "destination": "google"
+      }
+    ]
+  }
